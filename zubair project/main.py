@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template("menu.html")
+    return render_template("webpage.html")
 
 @app.route("/details")
 def details():
@@ -13,7 +13,7 @@ def details():
 
 @app.route("/webpage")
 def web():
-    return render_template("webpage.html")
+    return render_template("menu.html")
 
 @app.route("/contact")
 def contact():
