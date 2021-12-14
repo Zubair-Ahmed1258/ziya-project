@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/d8e365f100.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            margin: 0;
+            background-color: #fde1e0;
+        }
+        #header{
+            padding-left: 12px;
+            line-height: 20px;
+            padding-top: 15px;
+            padding-bottom: 18px;
+            background-image: linear-gradient(#bdb76b,#556b2f);
+
+        }
+        #header img{
+           
+            float: top;
+            width: 100px;
+            height: 100px;
+
+        }
+        #header h4{
+            float: right;
+            padding-right: 15px;
+            
+        }
+       
+
+        
+        #menuheader{
+            padding-left: 300px;
+            padding-top: 8px;
+            word-spacing: 10px;
+            font-size: 22px;
+            color: white;
+        }
+        #main{
+            background-color: #bdb76b;
+        }
+        .para{
+            background-color: brown;
+            color: white;
+        }
+        #footer{
+            text-align: center;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            border-top: 1px solid black;
+        }
+        .href3{
+            
+            color:white;
+            outline: none;
+            text-decoration: none;
+            
+        }
+        .href3:hover{
+            color: brown;
+
+        }
+        .fab{
+            
+            margin: 10px 30px;
+            display: inline-block;
+            font-size: 30px;
+            padding: 20px 20px;
+            color: #1DA1F2;
+            border: 1px solid rgb(247, 243, 243);
+            border-radius: 50%;
+            transition: .5s;
+            background-color: white;
+            cursor: pointer;
+            
+        }
+        .fas{
+            
+            margin: 10px 30px;
+            display: inline-block;
+            font-size: 30px;
+            padding: 20px 20px;
+            color: #EA4335;
+            border: 1px solid rgb(247, 243, 243);
+            border-radius: 50%;
+            transition: .5s;
+            background-color: white;
+            cursor: pointer;
+        }
+        h1{
+            padding-left: 10px;
+            font-size: 60px;
+            text-align: center;
+            color: brown;
+        }
+        .heading{
+            padding-left: 8px;
+            color: brown;
+           
+        }
+        #grid{
+            display: grid;
+            grid-template-columns: auto auto auto ;
+            grid-gap:16px;
+        }
+        
+        @media (max-width:900px){
+
+        #grid{
+
+                grid-template-columns: auto auto auto ;
+
+            }
+        }
+        @media(max-width:400px){
+        #grid{
+
+                grid-template-columns: auto auto ;
+
+            }
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h4>ABS Caterers: The taste of happiness<br>
+        Call now for a fee Quota<br> +91-7207390721,6300911797<br>
+        Prince Hotel,Mehdipatnam,Hyderabad. T.S<br> Timing: 7 PM to 10 PM</h4>
+        <img src="https://thumbs.dreamstime.com/b/chef-cartoon-giving-thumb-up-isolated-white-background-176171655.jpg">
+    </div>
+    <div id="main">
+        <div id="menuheader">
+            <span class="menu"><a class="href3" href="/webpage">Home</a></span>
+            <span class="menu"><a class="href3" href="/"> Menu</a></span>
+            <span class="menu"><a class="href3" href="/details">About Us </a></span>
+            <span class="menu"><a class="href3" href="/contact">Contact Us </a></span>
+        </div>
+        <p class="para"><marquee>Book your Order in this Festive Season to Get Amazing Offers & Huge Discount on all kind of Events.For More Information Contact Us: +91-7207390721. </marquee></p>
+    </div>
+    <h1>Menu</h1>
+<div id="grid">
+    <div >
+    <h3 class="heading">Mughlai (Starters)</h3>
+        <ul>
+            <li class="li1">Mutton Spring Rolls</li>
+            <li class="li1">Chicken Spring Rolls</li>
+            <li class="li1">Veg Spring Rolls</li>
+        </ul>
+    </div >
+    <div >
+    <h3 class="heading">Luqhmi</h3>
+    
+        <ul>
+            <li class="li1">Mutton Luqhmi</li>
+            <li class="li1">Chicken Luqhmi</li>
+            <li class="li1">Veg Luqhmi</li>
+            <li class="li1">Mutton Shikampur</li>
+            <li class="li1">Nargisi Kofta</li>
+        </ul>
+    </div>
+    <div>
+    <h3 class="heading"> Haleem</h3>
+    
+        <ul>
+            <li  class="li1">Mutton Haleem</li>
+            <li class="li1">Chicken Haleem</li>
+            
+        </ul>
+    </div>
+    <div >
+    <h3 class="heading"> Marag (Soup)</h3>
+    
+        <ul>
+            <li>Mutton  Marag</li>
+            
+            
+        </ul>
+    </div>  
+    <div >
+    <h3 class="heading"> Kababs & Tandoor</h3>
+    
+        <ul>
+            <li>Mutton Sheekh Kabab</li>
+            <li>Mutton Stick Kabab</li>
+            <li>Mutton Boti Kabab</li>
+            <li>Mutton Tikka Kabab</li>
+            <li>Mutton Chops</li>
+            <li>Mutton Jahangir Kabab</li>
+            
+            
+        </ul>
+    </div> 
+    <div >
+    <h3 class="heading">Chicken</h3>
+    
+        <ul>
+            <li>Chicken Sheekh Kabab</li>
+            <li>Chicken Boti Kabab</li>
+            <li>Chicken Tangdi Kabab</li>
+            <li>Chicken Stick Kabab</li>
+            <li>Chicken Tikka Kabab</li>
+            <li>Chicken Tandoori</li>
+            <li>Chicken Lollipops</li>
+            
+        </ul>
+    </div>
+    <div >
+    <h3 class="heading">Sea Food</h3>
+    
+        <ul>
+            <li>Apollo Fish Fry</li>
+            <li>Fish Tikka kabab</li>
+            <li>Tandoori Prawn</li>
+           
+        </ul>
+    </div>  
+    <div >
+    <h3 class="heading">
+        Roti</h3>
+    
+        <ul>
+            <li>Plain Naan</li>
+            <li>Butter Naan</li>
+            <li>Tandoori Roti</li>
+            <li>Rumaali Roti</li>
+            <li>Paratha</li>
+            
+        </ul>
+    </div> 
+    <div >
+    <h3 class="heading">
+        Spl. Hyderabadi Biryani</h3>
+    
+        <ul>
+            <li>Chicken Biryani</li>
+            <li>Mutton Biryani</li>
+            <li>Kaju Biryani / Pulao</li>
+            <li>Mix Vegetables Biryani</li>
+            
+            
+        </ul>
+    </div> 
+    <div >
+    <h3 class="heading"></h3>
+    
+        <ul>
+            <li>Chicken 65</li>
+            <li>Chicken Manchurian</li>
+        </ul>
+    </div> 
+    <div >
+    <h3 class="heading">Deserts (Meetha)  </h3>
+    
+        <ul>
+            <li>Dry Fruits with ice cream</li>
+            <li>Fruit Salad</li>
+            <li>Qubaani</li>
+            <li>Kesar Kheer</li>
+            <li>Kaddu Kheer</li>
+            <li>Kaddu Ka Resha</li>
+            <li>Double ka Meetha</li>
+            <li>Rabdi</li>
+            <li>Gajar ka Halwa</li>
+            <li>Pista Kheer</li>
+            <li>Rasmalai</li>
+            <li>Gulab Jamun</li>
+            
+            
+        </ul>
+    </div>
+</div>
+    <footer id="footer">
+        <div >
+         <a href="=https://www.facebook.com/ABS-Caterers-100128932540406"><i class="fab fa-facebook-f"></i></a>
+        
+         <a href="https://www.facebook.com/ABS-Caterers-100128932540406"><i class="fab fa-twitter-square"></i></a>
+        
+         <a href="https://mail.google.com/mail/u/3/#inbox"><i class="fas fa-envelope-square"></i></a>
+        
+        </div>
+         <br><br>
+         Copyright &copy;2021. ABS Caterers All Rights Reserved.
+     </footer>
+</body>
+</html>
